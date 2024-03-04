@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 /*Paleta de cores
-Amarelo: rgb(223, 223, 80)
-laranja: coral
-azul: deepskyblue
-verde: lightseagreen
+yellow,
+#F2A413,
+#F2790F,
+#F26513
 */
 
 * {
@@ -37,6 +37,8 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
