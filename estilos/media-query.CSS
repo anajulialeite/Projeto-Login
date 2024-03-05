@@ -2,7 +2,7 @@
 
 /* Gradiente abrangendo todas as telas */
 body {
-  background-image: linear-gradient(to top, yellow, #F2A413, #F2790F, #F26513);
+  background-image: linear-gradient(to bottom, yellow 0%, #F2A413 25%, #F2790F 50%, #F26513 100%);
 }
 
 /* Estilo para a seção de login */
