@@ -32,19 +32,23 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    
     background-color: white;
     width: 350px;
     height: 500px;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: coral url(..//Imagens/pexels-sebastian-arie-voortman-189349.jpg);
+    background: coral url(..//Imagens/pexels-sebastian-arie-voortman-189349.jpg) no-repeat;
+    background-position: left bottom;
+    height: 200;
     background-size: cover;
     height: 200px;
 }

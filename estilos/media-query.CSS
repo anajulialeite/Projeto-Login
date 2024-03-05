@@ -8,82 +8,44 @@
   Desktop: 1024px até 1440px
   Grandes telas: acima de 1440px*/
 
-  @charset "UTF-8";
-
-  /*Typical Device Breakpoints
-  -----------------------------
-    Pequenas telas: até 600px
-    Celular: de 600px até 768px
-    Tablet: 768px até 1024px
-    Desktop: 1024px até 1440px
-    Grandes telas: acima de 1440px*/
-  
-    @charset "UTF-8";
-
-    /*Typical Device Breakpoints
-    -----------------------------
-      Pequenas telas: até 600px
-      Celular: de 600px até 768px
-      Tablet: 768px até 1024px
-      Desktop: 1024px até 1440px
-      Grandes telas: acima de 1440px*/
-    
-      @media screen and (min-width: 768px) and (max-width: 1024px) {
-    
-        body{
-          background-image: linear-gradient(to top, yellow, #F2A413, #F2790F, #F26513);
-        }
-        
-        section#login {
-            width: 80vw;
-        }
-      }
-    
-      #login {
-      width: 90vw; /* Define a largura da seção para 90% da largura da viewport */
-      }
-    
-      /* Estilo para a div de imagem */
-      #formulario {
-      float: right; /* Faz com que a div se posicione à direita */
-      width: 100%; /* Define a largura como 100% para ocupar toda a largura disponível */
-      }
-    
-    
-      #formulario p {
-      font-size: 16px;
-      color: black;
-      margin-top: 20px;
-      }
-    
-      @media screen and (min-width: 1024px) and (max-width: 1440px) {
-    
-        body{
-          background-image: linear-gradient(to top, yellow,#F2A413, #F2790F, #F26513);
-        }
-        
-        section#login {
-          width: 1024px;
-        }
-      }
-    
-      
-      section#login > div#imagem{
-        float: left;
-        width: 50%;
-        height: 100%;
-      }
-    
-      section#login > div#formulario {
-        float: right;
-        width: 50%;
-        height: 100%;
-      }
-    
-      div#formulario > h1 {
-        font-size: 2em;
-      }
-    
-      div#formulario > p {
-        font-size: 1.2em;
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+      background-image: linear-gradient(to top, yellow, #F2A413, #F2790F, #F26513);
     }
+
+    section#login {
+      width: 80vw;
+    }
+
+    section#login > div#imagem {
+      float: left;
+      width: 30%;
+      height: 100%;
+    }
+
+    section#login >div#formulario {
+      float: right;
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    body {
+      background-image: linear-gradient(to top, yellow, #F2A413, #F2790F, #F26513);
+    }
+    
+    section#login {
+      width: 900px;
+    }
+
+    section#login > div#imagem {
+      float: left;
+      width: 50%;
+      height: 100%;
+    }
+
+    section#login > div#formulario {
+      float: right;
+      width: 50%;
+    }
+  }
