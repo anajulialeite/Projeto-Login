@@ -2,7 +2,8 @@
 
 /* Gradiente abrangendo todas as telas */
 body {
-  background-image: linear-gradient(to bottom, yellow 0%, #F2A413 25%, #F2790F 50%, #F26513 100%);
+  background-color: #F26513; /* Cor de fundo padrão */
+  background-image: linear-gradient(to bottom, yellow 50%, #F2A413 50%, #F2790F 75%, #F26513 75%);
 }
 
 /* Estilo para a seção de login */
