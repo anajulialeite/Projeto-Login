@@ -38,10 +38,6 @@
 
   @media screen and (min-width: 1024px) and (max-width: 1440px) {
 
-    body{
-      background-image: linear-gradient(to top, yellow,#F2A413, #F2790F, #F26513);
-    }
-    
     section#login {
       width: 1024px;
     }
