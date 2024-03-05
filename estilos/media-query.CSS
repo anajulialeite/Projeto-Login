@@ -8,57 +8,59 @@
   Desktop: 1024px até 1440px
   Grandes telas: acima de 1440px*/
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+  @charset "UTF-8";
+
+  /*Typical Device Breakpoints
+  -----------------------------
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 1024px
+    Desktop: 1024px até 1440px
+    Grandes telas: acima de 1440px*/
+  
+  /* Aplicando o degradê de fundo para todas as larguras de tela */
   body {
     background-image: linear-gradient(to top, yellow, #F2A413, #F2790F, #F26513);
   }
-
-  section#login {
-    width: 80vw; /* ou qualquer outra largura desejada */
+  
+  /* Estilo para a seção de login */
+  #login {
+    width: 90vw; /* Define a largura da seção para 90% da largura da viewport */
+    margin: 0 auto; /* Centraliza a seção na tela */
+    background-color: white; /* Define o fundo da seção como branco */
+    padding: 20px; /* Adiciona algum espaçamento interno para o conteúdo */
   }
-}
-
-/* Outras regras de estilo */
-
-#login {
-  width: 90vw; /* Define a largura da seção para 90% da largura da viewport */
-}
-
-/* Estilo para a div de imagem */
-#formulario {
-  float: right; /* Faz com que a div se posicione à direita */
-  width: 100%; /* Define a largura como 100% para ocupar toda a largura disponível */
-}
-
-#formulario p {
-  font-size: 16px;
-  color: black;
-  margin-top: 20px;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  section#login {
-    width: 1024px;
+  
+  /* Estilo para a div de imagem */
+  #imagem {
+    float: left; /* Faz com que a div se posicione à esquerda */
+    width: 50%; /* Define a largura como 50% para ocupar metade da largura da seção */
   }
-}
-
-section#login > div#imagem {
-  float: left;
-  width: 50%;
-  height: 100%;
-}
-
-section#login > div#formulario {
-  float: right;
-  width: 50%;
-  height: 100%;
-}
-
-div#formulario > h1 {
-  font-size: 2em;
-}
-
-div#formulario > p {
-  font-size: 1.2em;
-}
-
+  
+  /* Estilo para a div de formulário */
+  #formulario {
+    float: right; /* Faz com que a div se posicione à direita */
+    width: 50%; /* Define a largura como 50% para ocupar metade da largura da seção */
+  }
+  
+  /* Estilo para os parágrafos dentro da div de formulário */
+  #formulario p {
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  /* Estilos específicos para larguras de tela entre 768px e 1024px */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #login {
+      width: 80vw; /* Ajusta a largura da seção para 80% da largura da viewport */
+    }
+  }
+  
+  /* Estilos específicos para larguras de tela entre 1024px e 1440px */
+  @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    #login {
+      width: 1024px; /* Ajusta a largura da seção para 1024px */
+    }
+  }
+  
