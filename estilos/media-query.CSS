@@ -8,7 +8,7 @@
   Desktop: 1024px até 1440px
   Grandes telas: acima de 1440px*/
 
-  @media screen and (min-width: 768px) and (max-width: 992px) {
+  @media screen and (min-width: 768px) {
     body {
       background-image: linear-gradient(to top, yellow, #F2A413, #F2790F, #F26513);
     }
