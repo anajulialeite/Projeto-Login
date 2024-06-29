@@ -1,6 +1,6 @@
 # Projeto-Login
 
-<img src="Imagens/HTML-CSS.png" alt="Logo" align="left" width="90">
+<img src="Imagens/HTML-CSS.png" alt="HTML-CSS" align="left" width="90">
 
  Projeto tela de login
 
