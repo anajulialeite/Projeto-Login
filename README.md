@@ -2,9 +2,9 @@
 
 <img src="Imagens/HTML-CSS.png" alt="HTML-CSS" align="center" width="150">
 
-Projeto tela de login
+## Link do Projeto
 
-Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Conversor de Moedas</a>
+Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Tela de Login</a>
 
 ## License
 
