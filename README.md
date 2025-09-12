@@ -2,10 +2,14 @@
 
 <img src="Imagens/HTML-CSS.png" alt="HTML-CSS" align="center" width="150">
 
-Projeto tela de login
+## Link do Projeto
 
-Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Conversor de Moedas</a>
+Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Tela de Login</a>
 
-# License
+## Demonstração
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+
+
+## License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-%231C003F.svg)](./LICENSE)
