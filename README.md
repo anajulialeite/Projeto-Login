@@ -1,6 +1,6 @@
 # Projeto Login
 
-<img src="Imagens/HTML-CSS.png" alt="HTML-CSS" align="center" width="150">
+<img src="Imagens/HTML-CSS.png" alt="HTML-CSS" align="center" width="90">
 
 Este é um site que fiz durante o curso do CursoemVideo, uma tela de login totalmente responsiva.
 
