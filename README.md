@@ -2,6 +2,8 @@
 
 <img src="Imagens/HTML-CSS.png" alt="HTML-CSS" align="center" width="150">
 
+Este é um site que fiz durante o curso do CursoemVideo, uma tela de login totalmente responsiva.
+
 ## Link do Projeto
 
 Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Tela de Login</a>
