@@ -4,13 +4,13 @@
 
 Este é um site que fiz durante o curso do CursoemVideo, uma tela de login totalmente responsiva.
 
+## Demonstração
+
+<img src="Imagens/Login.png" alt="login" align="center" width="350">
+
 ## Link do Projeto
 
 Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Tela de Login</a>
-
-## Demonstração
-
-<img src="Imagens/Login.png" alt="login" align="center" width="300">
 
 ## License
 
