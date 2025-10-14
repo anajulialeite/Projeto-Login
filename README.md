@@ -10,7 +10,7 @@ Este é um site que fiz durante o curso do CursoemVideo, uma tela de login total
 
 ## Link do Projeto
 
-Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto-Login/">Tela de Login</a>
+Esse é o link do meu projeto <a href= "https://anajulialeite.github.io/Projeto-Login/">Tela de Login</a>
 
 ## License
 
